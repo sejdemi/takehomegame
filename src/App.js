@@ -41,7 +41,7 @@ class App extends Component {
   }
 
   calculateScore(hand) {
-    let aces = hand.filter(element => element.value === 'ACE');
+    let aces = hand.filter(element => element.value === Cards.ACE);
 
     let sum = hand.reduce((sum, card) => {
       if (card.value === Cards.Jack || card.value === Cards.QUEEN || card.value === Cards.KING) {
@@ -53,7 +53,6 @@ class App extends Component {
       }
     }, 0)
 
-    //NEED TO REFACTOR THIS FUNCTION
     if (aces.length > 0) {
       if (aces.length === 1 && sum < 10) {
         sum += 11;
