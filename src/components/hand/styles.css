@@ -1,0 +1,10 @@
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+
+.card-list li {
+  list-style: none;
+}

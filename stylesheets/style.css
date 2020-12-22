@@ -1,0 +1,40 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #35654d;
+  }
+  
+  .App p {
+      font-family: 'Verdana', monospace;
+      font-size: larger;
+      text-align: center;
+      color: white;
+  }
+  
+  .button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 80px;
+    font-family: 'Major Mono Display', monospace;
+    margin: 0px 10px;
+  }
+  
+  .button:hover {
+    box-shadow: 2px 4px black;
+  }
+  
+  #win-text, #lose-text {
+    text-transform: uppercase;
+    font-size: larger;
+  }
+
+  button {
+    text-transform: uppercase;
+    padding: 15px;
+    white-space: nowrap;
+    min-width: 150px;
+  }
